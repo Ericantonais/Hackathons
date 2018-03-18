@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.ba {
+  color: #3FB97C;
+  margin-top: 15px;
+  border: 1px solid #3FB97C;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.wrap .fa {
+padding: 25px;
+color: white;
+
+}
+
+.fa-bars {
+  margin-left: 20px;
+}
+
+.fa-user-o {
+  margin-right: 20px;
+}
+
+.page-header {
+  position: relative;
+  top: 20rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap {
+  height: 70vh;
+  background-image: url(img/young.jpg);
+  background-position: center center;
+  background-size: cover;
+  /*background-color: white;
+  border: 1px solid black;*/
+}
+
+/*.atelier {
+  position: absolute;
+  right:0;
+  top: 15px;
+  bottom: 15px;
+  background-color: darkgrey;
+  width: 20vw;
+}*/
+
+.icone {
+  border-radius: 50%;
+  background-color: #3FB97C;;
+  /*border: 1px solid black;*/
+  /*width: 90px;
+  height: 90px;*/
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav li {
+  padding: 5px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: lighter;
+  letter-spacing: 6px;
+}
+
+footer {
+  text-align: center;
+  background-color: #3FB97C;
+  padding: 5px;
+  margin-top: 20px;
+  color: white;
+  font-family: cursive;
+}
+
+
+nav {
+  display: none;
+}
+
+.nav-visible p {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.nav-visible {
+  display: block;
+  background-color: white;
+  color: black;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 34px;
+  width: 60vh;
+  z-index: 10;
+  padding: 24px;
+}
+
+
+#login {
+  text-align: center;
+  background-color: white;
+background-repeat: repeat;
+background-position: 0 50%;
+margin: auto;
+
+}
+
+#login .tout{
+  background-color: white;
+  margin: 148px;
+  width: 500px;
+  height: 400px;
+  padding-top: 48px;
+  margin: 40px auto ;
+}
+#login input {
+  width: 228px;
+  height: 44px;
+  margin: 7px;
+  padding: 7px;
+  border: none;
+  background-color: whitesmoke;
+}
+#login button{
+   width: 228px;
+  height: 44px;
+  margin: 7px;
+  color: white;
+  background-color: #3FB97C;
+  border: none;
+}
+#login p{
+  color: lightgrey;
+}
+#login p a{
+  text-decoration: none;
+  color: #3FB97C;
+}
+#login .user{
+  margin-top: 40px;
+}
